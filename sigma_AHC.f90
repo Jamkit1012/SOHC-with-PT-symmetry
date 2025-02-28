@@ -1,4 +1,4 @@
-  subroutine sigma_AHC
+  subroutine sigma_SOHC
   !This is a second order hall conductance.
   !\begin{equation}
   !\begin{aligned}
@@ -200,4 +200,4 @@
      deallocate( sigma_tensor_ahc, sigma_tensor_ahc_mpi)
  
      return
-  end subroutine sigma_AHC
+  end subroutine sigma_SOHC
